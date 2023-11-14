@@ -46,6 +46,10 @@ input{
     font-size: 1.1em;
     border-radius: 20px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.238);
+    
+}
+#botao:hover{
+    background-color: #0d57cf;
 }
 input#inum{
     border-radius: 20px;
@@ -54,5 +58,5 @@ input#inum{
 }
 #res{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }

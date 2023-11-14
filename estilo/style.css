@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 body{
-    
     background: linear-gradient(45deg, #05C6ED, #0533ED, #057DED,#05EDC8) no-repeat;
     background-size: 200% 200%;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 main{
@@ -23,4 +23,31 @@ section{
     padding: 40px;
     border-radius: 20px;
 
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    width: 200px;
+    padding: 6px;
+    display: block;
+    margin: auto;
+}
+#botao{
+    margin-top: 10px;
+    border: none;
+    background-color: #0daecf;
+    color: aliceblue;
+    font-size: 1.1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.238);
+}
+#res{
+    text-align: center;
+    padding-top: 10px;
 }

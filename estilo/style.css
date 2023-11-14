@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background: linear-gradient(45deg, #05C6ED, #0533ED, #057DED,#05EDC8) no-repeat;
+    background-size: 200% 200%;
+   
+}
+main{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.333);
+    padding: 40px;
+    border-radius: 20px;
+
+}
